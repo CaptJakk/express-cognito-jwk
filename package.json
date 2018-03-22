@@ -1,5 +1,5 @@
 {
-  "name": "cognito-validation-middleware-ts",
+  "name": "express-cognito-jwk",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -9,12 +9,12 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/SALTLending/cognito-validation-middleware-ts.git"
+    "url": "git+ssh://git@github.com/CaptJakk/express-cognito-jwk"
   },
   "bugs": {
-    "url": "https://github.com/SALTLending/cognito-validation-middleware-ts/issues"
+    "url": "https://github.com/CaptJakk/CaptJakk/express-cognito-jwk/issues"
   },
-  "homepage": "https://github.com/SALTLending/cognito-validation-middleware-ts#readme",
+  "homepage": "https://github.com/CaptJakk/express-cognito-jwk#readme",
   "description": "",
   "dependencies": {
     "express-jwt": "^5.3.1",
