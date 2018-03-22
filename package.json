@@ -1,0 +1,29 @@
+{
+  "name": "cognito-validation-middleware-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SALTLending/cognito-validation-middleware-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SALTLending/cognito-validation-middleware-ts/issues"
+  },
+  "homepage": "https://github.com/SALTLending/cognito-validation-middleware-ts#readme",
+  "description": "",
+  "dependencies": {
+    "express-jwt": "^5.3.1",
+    "jwks-rsa": "^1.2.1"
+  },
+  "devDependencies": {
+    "@types/express-jwt": "0.0.38",
+    "tslint": "^5.9.1",
+    "tslint-config-standard": "^7.0.0",
+    "typescript": "^2.7.2"
+  }
+}
