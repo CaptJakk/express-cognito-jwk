@@ -1,7 +1,7 @@
 import * as jwt from 'express-jwt'
 import * as jwksClient from 'jwks-rsa'
 
-export default function(poolId: string, clientId: string, property: string) {
+export default function(poolId: string, property: string) {
   const region = poolId.split('_')[0]
   if (!region) {
     throw new Error('Invalid Pool Id')
@@ -14,7 +14,6 @@ export default function(poolId: string, clientId: string, property: string) {
       jwksUri: url
     }),
     requestProperty: property,
-    audience: clientId,
     issuer: `https://cognito-idp.${region}.amazonaws.com/${poolId}`,
     algorithms: ['RS256']
   })
