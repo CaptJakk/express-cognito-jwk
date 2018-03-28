@@ -2,7 +2,7 @@
 This library is used to validate JWT's that are issued by Amazon Cognito User Pools
 
 ```js
-const cognitoValidation = require('cognito-validation-middleware-ts')
+const cognitoValidation = require('express-cognito-jwk')
 app.use('route', cognitoValidation('poolId', 'token'))
 ```
 
